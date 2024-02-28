@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background:linear-gradient(#9d2828,#0000),url(img/barmaja.jpg);
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    
+}
+.wail{
+    height: 18vh;
+    width: 18vh;
+    background-color: black;
+    margin-top: 23vh;
+    margin-left: 35%;
+    position: fixed;
+    top: 0;
+    border-radius: 15px;
+}
+.img1{
+    width: 18vh;
+    height: 18vh;
+    border-radius: 15px;
+
+}
+.ava{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 15px;
+
+}
+
+
+.ana{
+    height: 18vh;
+    width: 18vh;
+    background-color: black;
+    margin-top: 23vh;
+    margin-left: 55%;
+    position: fixed;
+    top: 0;
+    border-radius: 15px;
+}
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: large;
+    margin-top: 50vh;
+   
+    
+
+
+}
+
+ 
+
+img{
+    width: 15vh;
+    height: 13vh;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 13px;
+
+}
+img:hover{
+    transform: scale(0.9);
+}
+.me{
+    position: fixed;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 9%;
+    margin-left: 38%;
+    color: black;
+    top: 0;
+   
+    border-radius: 15px;
+    
+}
+.asa{
+    position: fixed;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 20%;
+    margin-left: 20%;
+   
+    
+    
+}
+.aka{
+    width: 10vh;
+    height: 30px;
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+.ama{
+    display: flex;
+    margin-top: 25px;
+}
+.com{
+    position: fixed;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 9%;
+    margin-left: 55%;
+    color: black;
+    top: 0;
+    
+}
+.aba{
+    position: fixed;
+    width: 15vh;
+    height: 6vh;
+    margin-top: 33%;
+    margin-left: 46%;
+    top: 0;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background: url(img/barmaja.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(250, 250, 250);
+    
+
+}
+.aba:hover{
+    transform: scale(0.9);
+}
+@media  (max-width:1024px){
+    
+   img{
+    width: 15vh;
+    height: 10vh;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 13px;
+
+  }
+  .game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: large;
+    margin-top: 70vh;
+   
+    
+
+
+}
+.aba{
+    position: fixed;
+    width: 15vh;
+    height: 6vh;
+    margin-top: 85vh;
+    margin-left: 40%;
+    top: 0;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background: url(img/barmaja.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(250, 250, 250);
+    
+
+}
+.aba:hover{
+    transform: scale(0.9);
+}
+.wail{
+    height: 13vh;
+    width: 13vh;
+    background-color: black;
+    margin-top: 45vh;
+    margin-left: 10%;
+    position: fixed;
+    top: 0;
+    border-radius: 15px;
+}
+.img1{
+    width: 13vh;
+    height: 13vh;
+    border-radius: 15px;
+
+}
+.ava{
+    height: 13vh;
+    width: 13vh;
+    border-radius: 15px;
+
+}
+
+
+.ana{
+    height: 13vh;
+    width: 13vh;
+    background-color: black;
+    margin-top: 45vh;
+    margin-left: 58%;
+    position: fixed;
+    top: 0;
+    border-radius: 15px;
+}
+.me{
+    position: fixed;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 39vh;
+    margin-left: 15%;
+    color: black;
+    top: 0;
+   
+    border-radius: 15px;
+    
+}
+.com{
+    position: fixed;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 39vh;
+    margin-left: 58%;
+    color: black;
+    top: 0;
+    
+}
+.asa{
+    position: fixed;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 42%;
+    margin-left: 20%;
+    display: flex;
+    gap: 15px;
+    
+   
+    
+    
+}
+.aka{
+    width: 10vh;
+    height: 30px;
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+   
+    
+    
+
+}
+
+
+
+
+}
+@media  (max-width:653px){
+    
+    img{
+     width: 15vh;
+     height: 10vh;
+     border: none;
+     cursor: pointer;
+     transition: 0.7s;
+     border-radius: 13px;
+ 
+   }
+   .game{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 50px;
+     font-size: large;
+     margin-top: 70vh;
+    
+     
+ 
+ 
+ }
+ .aba{
+     position: fixed;
+     width: 15vh;
+     height: 6vh;
+     margin-top: 85vh;
+     margin-left: 34%;
+     top: 0;
+     border-radius: 15px;
+     border: none;
+     cursor: pointer;
+     transition: 0.7s;
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     background: url(img/barmaja.jpg);
+     background-position: center;
+     background-size: cover;
+     color: rgb(250, 250, 250);
+     
+ 
+ }
+ .aba:hover{
+     transform: scale(0.9);
+ }
+ .wail{
+     height: 13vh;
+     width: 13vh;
+     background-color: black;
+     margin-top: 45vh;
+     margin-left: 10%;
+     position: fixed;
+     top: 0;
+     border-radius: 15px;
+ }
+ .img1{
+     width: 13vh;
+     height: 13vh;
+     border-radius: 15px;
+ 
+ }
+ .ava{
+     height: 13vh;
+     width: 13vh;
+     border-radius: 15px;
+ 
+ }
+ 
+ 
+ .ana{
+     height: 13vh;
+     width: 13vh;
+     background-color: black;
+     margin-top: 45vh;
+     margin-left: 58%;
+     position: fixed;
+     top: 0;
+     border-radius: 15px;
+ }
+ .me{
+     position: fixed;
+     font-size: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     margin-top: 39vh;
+     margin-left: 20%;
+     color: black;
+     top: 0;
+    
+     border-radius: 15px;
+     
+ }
+ .com{
+     position: fixed;
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     margin-top: 39vh;
+     margin-left: 55%;
+     color: black;
+     top: 0;
+     
+ }
+ .asa{
+     position: fixed;
+     top: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     font-size: 25px;
+     margin-top: 42%;
+     margin-left: 8%;
+     display: flex;
+     gap: 15px;
+     
+    
+     
+     
+ }
+ .aka{
+     width: 10vh;
+     height: 30px;
+     background: transparent;
+     border: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     font-size: 18px;
+     color: white;
+    
+     
+     
+ 
+ }
+ 
+ 
+ 
+ 
+ }
+ 
